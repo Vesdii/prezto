@@ -11,7 +11,7 @@
 
 export EDITOR='nvim'
 export VISUAL='nvim'
-export PAGER='most'
+export PAGER='less'
 
 #
 # Language
@@ -35,7 +35,7 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  ~/.local/bin
+  $HOME/.local/bin
   /usr/local/{bin,sbin}
   $path
 )
